@@ -5,7 +5,7 @@ const run = require("../");
 const cli = meow(
   `
     Initialize a blog
-      $ island
+      $ island -i
     
     Show current version
       $ island -v
@@ -13,17 +13,24 @@ const cli = meow(
     Add a new article
       $ island -a
 
-    Remove an article
-      $ island -r
-
-    Development model
+    Delete an article
       $ island -d
 
-    Production model
-      $ island -p
+    Reset all article data
+      $ island -r
+
+    Development
+      $ island -d
+
+    Build production
+      $ island -b
 `,
   {
     flags: {
+      init: {
+        type: "boolean",
+        alias: "i"
+      },
       version: {
         type: "boolean",
         alias: "v"
@@ -32,7 +39,11 @@ const cli = meow(
         type: "boolean",
         alias: "a"
       },
-      remove: {
+      del: {
+        type: "boolean",
+        alias: "d"
+      },
+      reset: {
         type: "boolean",
         alias: "r"
       },
@@ -40,9 +51,9 @@ const cli = meow(
         type: "boolean",
         alias: "d"
       },
-      prod: {
+      build: {
         type: "boolean",
-        alias: "p"
+        alias: "b"
       }
     }
   }

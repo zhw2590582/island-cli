@@ -4,14 +4,16 @@
   "description": "Island 博客系统命令行工具",
   "license": "MIT",
   "repository": "zhw2590582/island-cli",
-  "main": "lib/index.js",
   "authors": [
     "Harvey Zack <laozhaochaguan@gmail.com>"
   ],
+  "main": "lib/index.js",
   "bin": {
     "island": "bin/cli.js"
   },
-  "scripts": {},
+  "theme": {
+    "default": "zhw2590582/island-cli-default"
+  },
   "keywords": [
     "island",
     "cli",
@@ -25,9 +27,45 @@
     "url": "https://github.com/zhw2590582/island-cli/issues"
   },
   "homepage": "https://github.com/zhw2590582/island-cli#readme",
-  "devDependencies": {},
   "dependencies": {
+    "@prakriya/reload4-html-webpack-plugin": "^1.0.2",
+    "@sindresorhus/slugify": "^0.3.0",
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
     "chalk": "^2.4.1",
+    "chokidar": "^2.0.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "filemanager-webpack-plugin": "^1.0.29",
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.2",
+    "he": "^1.1.1",
+    "html-layout-webpack-plugin": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "import-fresh": "^2.0.0",
+    "inquirer": "^6.1.0",
+    "markdown-it": "^8.4.2",
+    "markdownit-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^2.1.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "simple-i18n-webpack-plugin": "^1.0.5",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-serve": "^2.0.2",
+    "write-json": "^3.0.1",
     "meow": "^5.0.0"
   }
 }
