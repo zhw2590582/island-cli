@@ -1,3 +1,4 @@
-module.exports = function (flags) {
+module.exports = function (cli) {
+    const { flags, input, help, showHelp, showVersion, pkg } = cli;
     console.log(flags)
 };

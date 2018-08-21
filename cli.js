@@ -5,22 +5,22 @@ const run = require(".");
 const cli = meow(
   `
     Initialize a blog
-      $ island-cli
+      $ island
     
     Show current version
-      $ island-cli -v
+      $ island -v
 
     Add a new article
-      $ island-cli -a
+      $ island -a
 
-    Delete an article
-      $ island-cli -r
+    Remove an article
+      $ island -r
 
     Development model
-      $ island-cli -d
+      $ island -d
 
     Production model
-      $ island-cli -p
+      $ island -p
 `,
   {
     flags: {
@@ -32,7 +32,7 @@ const cli = meow(
         type: "boolean",
         alias: "a"
       },
-      delete: {
+      remove: {
         type: "boolean",
         alias: "r"
       },
@@ -40,7 +40,7 @@ const cli = meow(
         type: "boolean",
         alias: "d"
       },
-      build: {
+      prod: {
         type: "boolean",
         alias: "p"
       }
@@ -48,4 +48,4 @@ const cli = meow(
   }
 );
 
-run(cli.flags);
+run(cli);

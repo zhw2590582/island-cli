@@ -9,7 +9,7 @@
     "Harvey Zack <laozhaochaguan@gmail.com>"
   ],
   "bin": {
-    "island-cli": "cli.js"
+    "island": "cli.js"
   },
   "scripts": {},
   "keywords": [
