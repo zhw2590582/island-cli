@@ -1,0 +1,33 @@
+{
+  "name": "island-cli",
+  "version": "1.0.0",
+  "description": "Island 博客系统命令行工具",
+  "license": "MIT",
+  "repository": "zhw2590582/island-cli",
+  "main": "index.js",
+  "authors": [
+    "Harvey Zack <laozhaochaguan@gmail.com>"
+  ],
+  "bin": {
+    "island-cli": "cli.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "island",
+    "cli",
+    "nodejs",
+    "webpack",
+    "sass",
+    "blog",
+    "github-pages"
+  ],
+  "bugs": {
+    "url": "https://github.com/zhw2590582/island-cli/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/island-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
+  }
+}
