@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const meow = require("meow");
-const run = require(".");
+const run = require("../");
 
 const cli = meow(
   `

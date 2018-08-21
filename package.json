@@ -4,12 +4,12 @@
   "description": "Island 博客系统命令行工具",
   "license": "MIT",
   "repository": "zhw2590582/island-cli",
-  "main": "index.js",
+  "main": "lib/index.js",
   "authors": [
     "Harvey Zack <laozhaochaguan@gmail.com>"
   ],
   "bin": {
-    "island": "cli.js"
+    "island": "bin/cli.js"
   },
   "scripts": {},
   "keywords": [
