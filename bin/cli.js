@@ -6,27 +6,35 @@ const cli = meow(
   `
     Initialize a blog
       $ island -i
+      $ island init
     
     Show current version
       $ island -v
+      $ island version
 
     Add a new article
       $ island -a
+      $ island add
 
     Delete an article
       $ island -x
+      $ island del
 
     Reset all data
       $ island -r
+      $ island reset
 
     Update a theme
-      $ island -u     
+      $ island -u
+      $ island update
 
     Development
       $ island -d
+      $ island dev
 
     Build production
       $ island -b
+      $ island build
 `,
   {
     flags: {

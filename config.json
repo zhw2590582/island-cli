@@ -1,0 +1,10 @@
+{
+    "init": "zhw2590582/island-cli-init",
+    "theme": {
+        "default": {
+            "author": "Harvey",
+            "github": "https://github.com/zhw2590582",
+            "repository": "zhw2590582/island-cli-theme-default"
+        }
+    }
+}
