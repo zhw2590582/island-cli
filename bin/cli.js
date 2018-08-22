@@ -13,20 +13,20 @@ const cli = meow(
       $ island version
 
     Add a new article
-      $ island -a
-      $ island add
+      $ island -a <name>
+      $ island add <name>
 
     Delete an article
-      $ island -x
-      $ island del
+      $ island -x <name>
+      $ island del <name>
 
     Reset all data
       $ island -r
       $ island reset
 
     Update a theme
-      $ island -u
-      $ island update
+      $ island -u <name>
+      $ island update <name>
 
     Development
       $ island -d
