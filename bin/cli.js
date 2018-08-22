@@ -14,10 +14,13 @@ const cli = meow(
       $ island -a
 
     Delete an article
-      $ island -d
+      $ island -x
 
-    Reset all article data
+    Reset all data
       $ island -r
+
+    Update a theme
+      $ island -u     
 
     Development
       $ island -d
@@ -41,11 +44,15 @@ const cli = meow(
       },
       del: {
         type: "boolean",
-        alias: "d"
+        alias: "x"
       },
       reset: {
         type: "boolean",
         alias: "r"
+      },
+      update: {
+        type: "boolean",
+        alias: "u"
       },
       dev: {
         type: "boolean",
