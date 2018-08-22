@@ -36,6 +36,7 @@
     "chokidar": "^2.0.4",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
+    "dayjs": "^1.7.5",
     "download-git-repo": "^1.1.0",
     "file-loader": "^1.1.11",
     "filemanager-webpack-plugin": "^1.0.29",
