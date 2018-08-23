@@ -32,7 +32,7 @@ const cli = meow(
       $ island -d
       $ island dev
 
-    Build production
+    Production
       $ island -b
       $ island build
 `,
