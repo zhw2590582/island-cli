@@ -1,6 +1,6 @@
 {
   "name": "island-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Island blog system command line tool",
   "license": "MIT",
   "repository": "zhw2590582/island-cli",
