@@ -41,6 +41,10 @@ Development
 Production
     $ island -b
     $ island build
+
+Travis CI
+    $ island -c
+    $ island ci
 ```
 
 ## License

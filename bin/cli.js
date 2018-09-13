@@ -35,6 +35,10 @@ const cli = meow(
     Production
       $ island -b
       $ island build
+
+    Travis CI
+      $ island -c
+      $ island ci      
 `,
   {
     flags: {
@@ -69,6 +73,10 @@ const cli = meow(
       build: {
         type: "boolean",
         alias: "b"
+      },
+      ci: {
+        type: "boolean",
+        alias: "c"
       }
     }
   }
